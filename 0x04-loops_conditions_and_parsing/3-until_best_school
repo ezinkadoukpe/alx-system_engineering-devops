@@ -2,9 +2,7 @@
 # until looping
 
 counter=0
-
-until [$counter -eq 10]
-do
+until [ $counter -eq 10 ]; do
  echo "Best School"
  ((counter++))
 done
